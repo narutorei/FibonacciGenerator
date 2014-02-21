@@ -12,25 +12,16 @@ class Fibonacci {
 
         int getNthTerm(int term) {
 
-            int sum, one, two;
+            int sum, one = Fibonacci::FIRST_TERM, two = Fibonacci::SECOND_TERM;
 
-            for (int i = 0; i <= term; i++)
-            {
-                if(i == 0) {
-                    sum = Fibonacci::FIRST_TERM + Fibonacci::SECOND_TERM;
-                    one = Fibonacci::SECOND_TERM;
-                    two = sum;
-                    continue;
-                }
-
+            for(int i = 1; i < term; i++) {
                 sum = one + two;
                 one = two;
                 two = sum;
-
             }
 
             return sum;
 
         }
 
-}
+};
