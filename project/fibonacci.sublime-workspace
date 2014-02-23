@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"ine",
+				"insertIntoBuffer"
+			],
+			[
+				"bu",
+				"bufferLenth"
+			],
+			[
+				"br",
+				"bufferLenth"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"FI",
+				"Fibonacci"
+			],
+			[
 				"set",
 				"setUpdated"
 			],
@@ -494,31 +514,28 @@
 			[
 				"app",
 				"APPLICATION_ENV"
-			],
-			[
-				"A",
-				"APPLICATION_ENV"
-			],
-			[
-				"emai",
-				"email_name"
-			],
-			[
-				"preg",
-				"preg_match"
-			],
-			[
-				"loadD",
-				"loadDataByOrgID  (function)"
-			],
-			[
-				"not",
-				"not_valid_rows"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/media/arquivo/Códigos/UEPG/Modelagem de Software/fibonacci/c++/fibonacci.cpp",
+			"settings":
+			{
+				"buffer_size": 1757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/arquivo/Códigos/UEPG/Modelagem de Software/fibonacci/c++/main.cpp",
+			"settings":
+			{
+				"buffer_size": 329,
+				"line_ending": "Unix",
+				"name": "#include <iostream>"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -904,6 +921,9 @@
 	},
 	"file_history":
 	[
+		"/media/arquivo/Códigos/UEPG/Modelagem de Software/fibonacci/.gitignore",
+		"/media/arquivo/Códigos/UEPG/Modelagem de Software/fibonacci/README.md",
+		"/home/reinaldo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/media/arquivo/Códigos/UEPG/Modelagem de Software/pa_pg/c++/pg.cpp",
 		"/media/arquivo/Códigos/UEPG/Modelagem de Software/pa_pg/c++/main.cpp",
 		"/media/arquivo/Códigos/UEPG/Modelagem de Software/pa_pg/.gitignore",
@@ -919,7 +939,6 @@
 		"/home/reinaldo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/home/reinaldo/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
 		"/home/reinaldo/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
-		"/home/reinaldo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/reinaldo/Documentos/bestuse-novo.sublime-project",
 		"/home/reinaldo/trabalhos/bestuse-novo/web/index.php",
 		"/home/reinaldo/trabalhos/bestuse-novo/config/routes.yml",
@@ -1029,9 +1048,7 @@
 		"/home/reinaldo/trabalhos/bestuse-novo/vendor/doctrine/mongodb/tests/Doctrine/MongoDB/Tests/DatabaseTest.php",
 		"/home/reinaldo/trabalhos/bestuse-novo/vendor/doctrine/mongodb-odm/tests/Doctrine/ODM/MongoDB/Tests/Mapping/XmlMappingDriverTest.php",
 		"/home/reinaldo/trabalhos/bestuse-novo/vendor/doctrine/mongodb-odm/tests/Doctrine/ODM/MongoDB/Tests/Functional/CursorHydrationTest.php",
-		"/home/reinaldo/trabalhos/bestuse-novo/vendor/doctrine/mongodb-odm/lib/Doctrine/ODM/MongoDB/Id/AutoGenerator.php",
-		"/home/reinaldo/trabalhos/bestuse-novo/vendor/doctrine/mongodb-odm/tests/Doctrine/ODM/MongoDB/Tests/Mapping/Driver/YamlDriverTest.php",
-		"/home/reinaldo/trabalhos/bestuse-novo/vendor/doctrine/mongodb-odm/tests/Doctrine/ODM/MongoDB/Tests/Mapping/ClassMetadataLoadEventTest.php"
+		"/home/reinaldo/trabalhos/bestuse-novo/vendor/doctrine/mongodb-odm/lib/Doctrine/ODM/MongoDB/Id/AutoGenerator.php"
 	],
 	"find":
 	{
@@ -1110,6 +1127,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"long double",
+			"long float",
+			"unsigned long long int",
+			"unsigned long int",
+			"long int",
 			"pa1",
 			"1",
 			"*(",
@@ -1232,12 +1254,7 @@
 			"public function add",
 			"users",
 			"client",
-			"var_dump",
-			"cascade={\"persist\"}",
-			"this->buildUser",
-			"this->buildClient",
-			"setUpUser",
-			"reinald"
+			"var_dump"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1262,8 +1279,278 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/media/arquivo/Códigos/UEPG/Modelagem de Software/fibonacci/c++/fibonacci.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1101,
+								1101
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"encoding_helper_encoding": "UTF-8",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/media/arquivo/Códigos/UEPG/Modelagem de Software/fibonacci/c++/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include <iostream>",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"encoding_helper_encoding": "UTF-8",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

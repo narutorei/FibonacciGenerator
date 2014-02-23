@@ -14,5 +14,7 @@ int main() {
 
     std::cout << "O número gerado é: " << fb.getNthTerm(index) << '\n';
 
+    fb.printBuffer();
+
     return 0;
 }
